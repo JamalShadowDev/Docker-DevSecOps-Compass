@@ -65,7 +65,7 @@ CMD ["python", "app.py"]
 RUN apk update && apk add --no-cache sqlite-libs=3.48.0-r1
 ```
 
-Inicialmente já se vê uma enorme diferença no tamanho da imagem criada, sendo a primeira utilizando python:39 e a segunda utilizando python:3.9-alpine.
+Inicialmente já se vê uma enorme diferença no tamanho da imagem criada, sendo a primeira utilizando python:3.9 e a segunda utilizando python:3.9-alpine.
 <img src="Generic-size.png"></img>
 <img src="Clean-size.png"></img>
 

@@ -12,7 +12,7 @@ Utilizaremos a porta padrão do MongoDB (27017) para se comunicar com o backend,
 ## 3. Criação dos containers
 Utilizar o seguinte comando para criar os containers e iniciar os serviços definidos no compose.yml
 ```bash
-docker-compose up --build
+docker-compose up -d
 ```
 
 ## 4. Verificação

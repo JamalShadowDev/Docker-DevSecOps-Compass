@@ -15,7 +15,7 @@ Crie os arquivos dentro de uma pasta backend/
 ## 3. Criando/Subindo os containers
 Ao invés de utilizar o docker build, devemos utilizar o seguinte comando para criar os containers e iniciar os serviços definidos no docker-compose.yml
 ```bash
-docker-compose up --build
+docker-compose up -d
 ```
 
 ## 4. Acessando a aplicação
