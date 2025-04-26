@@ -17,6 +17,31 @@ Cada pasta contém:
 
 ---
 
+## 🧠 Lista de Exercícios
+
+### 🔹 Fácil
+
+1. [Executando um container básico](./Executando_um_container_básico/README.md)
+2. [Criando um container interativo](./Criando_um_container_interativo/README.md)
+3. [Listando e removendo containers](./Listando_removendo_containers/README.md)
+4. [Criando um Dockerfile para aplicação Python](./Dockerfile_para_app_Python/README.md)
+
+### 🔸 Médio
+
+5. [Utilizando volumes para persistência de dados](./Utilização_de_volumes/README.md)
+6. [Construindo imagens com multi-stage build](./Imagem_multi-stage_build/README.md)
+7. [Criando uma rede Docker para múltiplos containers](./Rede_Docker/README.md)
+8. [Orquestrando aplicação com banco de dados via Docker Compose](./BD_Docker-compose/README.md)
+
+### 🔺 Difícil
+
+9. [Criando imagem personalizada com servidor web](./Imagem_personalizada_servidor_web/README.md)
+10. [Executando containers sem privilégios de root](./Privilégios_não_root/README.md)
+11. [Analisando vulnerabilidades com Trivy](./Analisando_vulnerabilidades_Trivy/README.md)
+12. [Corrigindo vulnerabilidades encontradas](./Corrigindo_vulnerabilidades/README.md)
+
+---
+
 ## 🐋 O que é Docker?
 
 **Docker** é uma plataforma que permite empacotar e executar aplicações em ambientes isolados chamados **containers**. Esses containers são leves, portáveis e contêm tudo o que a aplicação precisa para rodar,desde o sistema operacional até as bibliotecas.
